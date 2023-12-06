@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cultural_courses",
+  "info": {
+    "singularName": "cultural-course",
+    "pluralName": "cultural-courses",
+    "displayName": "CulturalCourse"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "times": {
+      "type": "string"
+    },
+    "picture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

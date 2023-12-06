@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "singularName": "menu",
+    "pluralName": "menus",
+    "displayName": "Menu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "teacher_course": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::teacher-course.teacher-course",
+      "inversedBy": "menus"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_navbar_drop_downs",
+  "info": {
+    "displayName": "DropDown"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

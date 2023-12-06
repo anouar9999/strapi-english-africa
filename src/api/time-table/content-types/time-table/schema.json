@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "time_tables",
+  "info": {
+    "singularName": "time-table",
+    "pluralName": "time-tables",
+    "displayName": "TimeTable",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "day": {
+      "type": "enumeration",
+      "enum": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    "TitleCourseOne": {
+      "type": "string"
+    },
+    "TeacherCourseOne": {
+      "type": "string"
+    },
+    "TimeCourseOne": {
+      "type": "string"
+    },
+    "ClassCourseOne": {
+      "type": "string"
+    },
+    "TitleCourseTwo": {
+      "type": "string"
+    },
+    "TimeCourseTwo": {
+      "type": "string"
+    },
+    "TeacherCourseTwo": {
+      "type": "string"
+    },
+    "ClassCourseTwo": {
+      "type": "string"
+    },
+    "TeacherCourseThree": {
+      "type": "string"
+    },
+    "TitleCourseThree": {
+      "type": "string"
+    },
+    "TimeCourseThree": {
+      "type": "string"
+    },
+    "ClassCourseThree": {
+      "type": "string"
+    }
+  }
+}
