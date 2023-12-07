@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blog_blog_infos",
+  "info": {
+    "displayName": "BlogInfo"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

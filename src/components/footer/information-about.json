@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_footer_information_abouts",
+  "info": {
+    "displayName": "INFORMATION ABOUT"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}

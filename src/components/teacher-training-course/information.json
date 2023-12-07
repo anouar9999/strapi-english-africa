@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_teacher_training_course_information",
+  "info": {
+    "displayName": "Information",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ButtonText1": {
+      "type": "string"
+    },
+    "ButtonText2": {
+      "type": "string"
+    }
+  }
+}

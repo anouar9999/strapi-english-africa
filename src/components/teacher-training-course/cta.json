@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_teacher_training_course_ctas",
+  "info": {
+    "displayName": "cta"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "ButtonText": {
+      "type": "string"
+    }
+  }
+}

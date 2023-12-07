@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_whychooseus_teams",
+  "info": {
+    "displayName": "Team"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

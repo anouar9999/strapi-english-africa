@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_courses_workshops_deltas",
+  "info": {
+    "displayName": "Delta"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ButtonText": {
+      "type": "string"
+    }
+  }
+}

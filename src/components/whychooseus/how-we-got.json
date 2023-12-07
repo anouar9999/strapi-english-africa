@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_whychooseus_how_we_gots",
+  "info": {
+    "displayName": "HowWeGot"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text1": {
+      "type": "text"
+    },
+    "text2": {
+      "type": "text"
+    },
+    "ButtonText": {
+      "type": "string"
+    }
+  }
+}

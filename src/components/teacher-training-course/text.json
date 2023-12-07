@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_teacher_training_course_texts",
+  "info": {
+    "displayName": "text"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

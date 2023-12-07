@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_whychooseus_our_values",
+  "info": {
+    "displayName": "OurValues",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "OurValuesImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "whychooseus.our-values-images"
+    }
+  }
+}

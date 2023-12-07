@@ -16,6 +16,51 @@
       "type": "component",
       "repeatable": false,
       "component": "homepage.header"
+    },
+    "CallToAction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.cta"
+    },
+    "TeachingQualification": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.teaching-qualification"
+    },
+    "whyChoose": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.why-choose"
+    },
+    "TeacherCourse": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.teacher-courses"
+    },
+    "CulturalCourse": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.cultural-course"
+    },
+    "Service": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.service"
+    },
+    "TimeTable": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.time-table"
+    },
+    "Testimonial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.testimonial"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.footer"
     }
   }
 }

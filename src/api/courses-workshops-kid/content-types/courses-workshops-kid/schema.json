@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "courses_workshops_kids",
+  "info": {
+    "singularName": "courses-workshops-kid",
+    "pluralName": "courses-workshops-kids",
+    "displayName": "courses-workshops-Kid",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Information": {
+      "type": "component",
+      "repeatable": false,
+      "component": "courses-workshops.information"
+    },
+    "Delta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "courses-workshops.delta"
+    },
+    "Information2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "courses-workshops.information"
+    },
+    "Delta2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "courses-workshops.delta"
+    }
+  }
+}

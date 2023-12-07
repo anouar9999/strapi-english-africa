@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_homepage_keys",
+  "info": {
+    "displayName": "key"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

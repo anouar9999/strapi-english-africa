@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_homepage_ctas",
+  "info": {
+    "displayName": "cta"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "TitleButton": {
+      "type": "string"
+    }
+  }
+}

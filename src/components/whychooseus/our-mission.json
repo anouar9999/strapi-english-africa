@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_whychooseus_our_missions",
+  "info": {
+    "displayName": "Our Mission"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "shortText": {
+      "type": "text"
+    }
+  }
+}

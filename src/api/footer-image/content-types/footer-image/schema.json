@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "footer_images",
+  "info": {
+    "singularName": "footer-image",
+    "pluralName": "footer-images",
+    "displayName": "FooterImage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

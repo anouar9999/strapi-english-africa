@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_homepage_service1s",
+  "info": {
+    "displayName": "Service1"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

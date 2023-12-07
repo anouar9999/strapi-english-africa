@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_language_learning_descriptions",
+  "info": {
+    "displayName": "Description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "descriptionLanguageLearning": {
+      "type": "component",
+      "repeatable": true,
+      "component": "language-learning.description-language-learning"
+    }
+  }
+}

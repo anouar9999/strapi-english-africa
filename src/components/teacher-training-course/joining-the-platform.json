@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_teacher_training_course_joining_the_platforms",
+  "info": {
+    "displayName": "Joining",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    }
+  }
+}

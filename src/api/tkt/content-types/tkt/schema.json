@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "tkts",
+  "info": {
+    "singularName": "tkt",
+    "pluralName": "tkts",
+    "displayName": "TKT",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "OurMission": {
+      "type": "component",
+      "repeatable": false,
+      "component": "teacher-training-course.our-mission"
+    },
+    "Information": {
+      "type": "component",
+      "repeatable": true,
+      "component": "teacher-training-course.information"
+    },
+    "Delta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "teacher-training-course.delta"
+    }
+  }
+}

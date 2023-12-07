@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_teacher_training_course_course_formats",
+  "info": {
+    "displayName": "CourseFormat"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

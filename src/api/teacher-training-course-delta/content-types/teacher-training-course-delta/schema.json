@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "teacher_training_course_deltas",
+  "info": {
+    "singularName": "teacher-training-course-delta",
+    "pluralName": "teacher-training-course-deltas",
+    "displayName": "TeacherTrainingCourse-delta",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "OurMission": {
+      "type": "component",
+      "repeatable": false,
+      "component": "teacher-training-course.our-mission"
+    },
+    "Delta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "teacher-training-course.delta"
+    },
+    "Information": {
+      "type": "component",
+      "repeatable": true,
+      "component": "teacher-training-course.information"
+    },
+    "Information2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "teacher-training-course.information"
+    }
+  }
+}

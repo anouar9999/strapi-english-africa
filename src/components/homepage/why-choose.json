@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_homepage_why_chooses",
+  "info": {
+    "displayName": "whyChoose",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Title2": {
+      "type": "string"
+    },
+    "keys": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.key"
+    }
+  }
+}

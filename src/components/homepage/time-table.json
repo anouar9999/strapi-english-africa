@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_homepage_time_tables",
+  "info": {
+    "displayName": "TimeTable"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

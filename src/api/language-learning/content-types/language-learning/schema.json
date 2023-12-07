@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "language_learnings",
+  "info": {
+    "singularName": "language-learning",
+    "pluralName": "language-learnings",
+    "displayName": "Language learning",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "language-learning.description"
+    },
+    "GeneralEnglish": {
+      "type": "component",
+      "repeatable": true,
+      "component": "language-learning.general-english"
+    },
+    "BussiensEnglish": {
+      "type": "component",
+      "repeatable": false,
+      "component": "language-learning.bussiens-english"
+    }
+  }
+}

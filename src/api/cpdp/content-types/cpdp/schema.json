@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "cpdps",
+  "info": {
+    "singularName": "cpdp",
+    "pluralName": "cpdps",
+    "displayName": "CPDP",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "OurMission": {
+      "type": "component",
+      "repeatable": false,
+      "component": "teacher-training-course.our-mission"
+    },
+    "Information": {
+      "type": "component",
+      "repeatable": true,
+      "component": "teacher-training-course.information"
+    },
+    "joiningThePlatform": {
+      "type": "component",
+      "repeatable": false,
+      "component": "teacher-training-course.joining-the-platform"
+    },
+    "text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "teacher-training-course.text"
+    }
+  }
+}

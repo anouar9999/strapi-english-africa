@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_homepage_teacher_courses",
+  "info": {
+    "displayName": "TeacherCourse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

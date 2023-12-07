@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_whychooseus_our_values_images",
+  "info": {
+    "displayName": "OurValuesImages"
+  },
+  "options": {},
+  "SelectOplions": {
+    "type": "component",
+    "repeatable": true,
+    "component": "elements.key-value"
+  },
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

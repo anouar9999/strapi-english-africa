@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "why_choose_uses",
+  "info": {
+    "singularName": "why-choose-us",
+    "pluralName": "why-choose-uses",
+    "displayName": "Why choose us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "OurMission": {
+      "type": "component",
+      "repeatable": false,
+      "component": "whychooseus.our-mission"
+    },
+    "HowWeGot": {
+      "type": "component",
+      "repeatable": false,
+      "component": "whychooseus.how-we-got"
+    },
+    "Team": {
+      "type": "component",
+      "repeatable": false,
+      "component": "whychooseus.team"
+    },
+    "OurValues": {
+      "type": "component",
+      "repeatable": false,
+      "component": "whychooseus.our-values"
+    }
+  }
+}

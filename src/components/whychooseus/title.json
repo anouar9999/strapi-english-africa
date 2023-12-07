@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_whychooseus_titles",
+  "info": {
+    "displayName": "Title"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}
